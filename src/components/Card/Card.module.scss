@@ -1,0 +1,71 @@
+@use "../../scss/colors" as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  padding: 12px;
+  box-shadow: 12px 20px 32px 8px rgba(0, 0, 0, 0.56);
+  justify-content: space-between;
+
+  h2,
+  h5,
+  p {
+    margin: 0;
+    padding: 0 8px;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: $khaki-beige;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+
+  &:hover {
+    h2,
+    h5,
+    p {
+      opacity: 1;
+    }
+
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.topRating {
+  z-index: 3;
+  position: absolute;
+  top: 20px;
+  right: -30px;
+  width: 120px;
+  background-color: $toffee-brown;
+  color: $khaki-beige;
+  text-align: center;
+  font-size: 12px;
+  padding: 4px 0;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Long Black",
+    "contents": "Hot water, Espresso",
+    "rating": 3,
+    "image": "/drinks-image/long-black.jpg"
+  },
+  {
+    "name": "Latte",
+    "contents": "Espresso, Steamed milk, Thin layer of milk foam",
+    "rating": 5,
+    "image": "/drinks-image/latte.jpeg"
+  },
+  {
+    "name": "Flat white",
+    "contents": "Espresso, Steamed milk, Microfoam milk foam",
+    "rating": 4,
+    "image": "/drinks-image/flat-white.jpg"
+  },
+  {
+    "name": "Cappuccino",
+    "contents": "Espresso, Steamed milk, Thick layer of milk foam, Cocoa or Cinnamon powder",
+    "rating": 3,
+    "image": "/drinks-image/cappuccino.jpg"
+  },
+  {
+    "name": "Matcha latte",
+    "contents": "Matcha paste, Hot water, Milk",
+    "rating": 4,
+    "image": "/drinks-image/matcha-latte.jpg"
+  },
+  {
+    "name": "Hojicha latte",
+    "contents": "Hojicha paste, Hot water, Milk",
+    "rating": 3,
+    "image": "/drinks-image/hojicha-latte.jpg"
+  },
+  {
+    "name": "Mont Blanc coffee",
+    "contents": "Cold brew black coffee, Sweetener, Cream foam, Orange zest",
+    "rating": 5,
+    "image": "/drinks-image/mont-blanc.png"
+  },
+  {
+    "name": "Iced coffee",
+    "contents": "Double shots of espresso, Chilled milk, Large scoops of vanilla ice cream",
+    "rating": 5,
+    "image": "/drinks-image/ice-coffee.png"
+  }
+]
