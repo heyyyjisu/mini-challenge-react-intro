@@ -9,7 +9,7 @@
     "name": "Latte",
     "contents": "Espresso, Steamed milk, Thin layer of milk foam",
     "rating": 5,
-    "image": "/drinks-image/latte.jpeg"
+    "image": "/drinks-image/latte.jpg"
   },
   {
     "name": "Flat white",
@@ -39,12 +39,12 @@
     "name": "Mont Blanc coffee",
     "contents": "Cold brew black coffee, Sweetener, Cream foam, Orange zest",
     "rating": 5,
-    "image": "/drinks-image/mont-blanc.png"
+    "image": "/drinks-image/mont-blanc.jpg"
   },
   {
     "name": "Iced coffee",
     "contents": "Double shots of espresso, Chilled milk, Large scoops of vanilla ice cream",
     "rating": 5,
-    "image": "/drinks-image/ice-coffee.png"
+    "image": "/drinks-image/ice-coffee.jpg"
   }
 ]
